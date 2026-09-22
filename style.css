@@ -3,3 +3,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+@font-face {
+    font-family: "All Over Again"; 
+    src: url(http://static.tumblr.com/npggxjg/v3hm1xlru/all_over_again_caps.ttf);}
