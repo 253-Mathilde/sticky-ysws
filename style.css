@@ -10,6 +10,12 @@ body{
     src: url("all_over_again_caps.ttf") format("truetype");}
 
 
+
+ /* Pink Feather - https://www.cursors-4u.com/cursor/pink-feather */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/pink-feather-c4993148-64.webp') 19 21, auto !important;
+}
+/* End www.Cursors-4U.com Code */
  html {
 overflow: scroll;
 overflow-x: hidden;
