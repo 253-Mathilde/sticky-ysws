@@ -8,3 +8,23 @@ body{
 @font-face {
     font-family: "All Over Again"; 
     src: url("all_over_again_caps.ttf") format("truetype");}
+
+
+ html {
+overflow: scroll;
+overflow-x: hidden;
+}
+::-webkit-scrollbar {
+width: 0; /* remove scrollbar space */
+background: transparent; /* to make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+background: transparent;
+}
+
+::selection {
+/* Change highlight background color */
+background: 	#FF1493;
+/* Change highlight text color */
+
+}
