@@ -8,6 +8,25 @@ document.title = message.substr(0,15);
 dragElement(document.getElementById("mydiv"));
 dragElement(document.getElementById("mydiv2"));
 dragElement(document.getElementById("mydiv3"));
+dragElement(document.getElementById("mydiv4"));
+dragElement(document.getElementById("mydiv5"));
+dragElement(document.getElementById("mydiv6"));
+dragElement(document.getElementById("mydiv7"));
+dragElement(document.getElementById("mydiv8"));
+dragElement(document.getElementById("mydiv9"));
+dragElement(document.getElementById("mydiv10"));
+dragElement(document.getElementById("mydiv11"));
+dragElement(document.getElementById("mydiv12"));
+dragElement(document.getElementById("mydiv13"));
+dragElement(document.getElementById("mydiv14"));
+dragElement(document.getElementById("mydiv15"));
+dragElement(document.getElementById("mydiv16"));
+dragElement(document.getElementById("mydiv17"));
+dragElement(document.getElementById("mydiv18"));
+dragElement(document.getElementById("mydiv19"));
+dragElement(document.getElementById("mydiv20"));
+dragElement(document.getElementById("mydiv21"));
+dragElement(document.getElementById("mydiv22"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
