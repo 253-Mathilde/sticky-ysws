@@ -88,25 +88,25 @@ background: 	#C9C0BB;
 
 
 
-#mydiv1header  { top: 10%; left: 10%; }
-#mydiv2header  { top: 10%; left: 22%; }
-#mydiv3header  { top: 10%; left: 34%; }
-#mydiv4header  { top: 10%; left: 46%; }
-#mydiv5header  { top: 10%; left: 58%; }
-#mydiv6header  { top: 10%; left: 70%; }
-#mydiv7header  { top: 30%; left: 10%; }
-#mydiv8header  { top: 30%; left: 22%; }
-#mydiv9header  { top: 30%; left: 34%; }
-#mydiv10header { top: 30%; left: 46%; }
-#mydiv11header { top: 30%; left: 58%; }
-#mydiv12header { top: 30%; left: 70%; }
-#mydiv13header { top: 50%; left: 10%; }
-#mydiv14header { top: 50%; left: 22%; }
-#mydiv15header { top: 50%; left: 34%; }
-#mydiv16header { top: 50%; left: 46%; }
-#mydiv17header { top: 50%; left: 58%; }
-#mydiv18header { top: 50%; left: 70%; }
-#mydiv19header { top: 70%; left: 10%; }
-#mydiv20header { top: 70%; left: 22%; }
-#mydiv21header { top: 70%; left: 34%; }
-#mydiv22header { top: 70%; left: 46%; }
+#mydivheader  { position:absolute; top: 10%; left: 10%; }
+#mydiv2header  { position:absolute; top: 10%; left: 22%; }
+#mydiv3header  { position:absolute; top: 10%; left: 34%; }
+#mydiv4header  { position:absolute; top: 10%; left: 46%; }
+#mydiv5header  { position:absolute; top: 10%; left: 58%; }
+#mydiv6header  { position:absolute; top: 10%; left: 70%; }
+#mydiv7header  { position:absolute;top: 30%; left: 10%; }
+#mydiv8header  {position:absolute; top: 30%; left: 22%; }
+#mydiv9header  { position:absolute;top: 30%; left: 34%; }
+#mydiv10header { position:absolute;top: 30%; left: 46%; }
+#mydiv11header {position:absolute; top: 30%; left: 58%; }
+#mydiv12header {position:absolute; top: 30%; left: 70%; }
+#mydiv13header {position:absolute; top: 50%; left: 10%; }
+#mydiv14header { position:absolute;top: 50%; left: 22%; }
+#mydiv15header { position:absolute;top: 50%; left: 34%; }
+#mydiv16header { position:absolute;top: 50%; left: 46%; }
+#mydiv17header { position:absolute;top: 50%; left: 58%; }
+#mydiv18header { position:absolute;top: 50%; left: 70%; }
+#mydiv19header { position:absolute;top: 70%; left: 10%; }
+#mydiv20header {position:absolute; top: 70%; left: 22%; }
+#mydiv21header { position:absolute;top: 70%; left: 34%; }
+#mydiv22header { position:absolute;top: 70%; left: 46%; }
