@@ -83,6 +83,7 @@ background: 	#C9C0BB;
   height: 100vh;
   z-index: -1; 
   display: block;
+   pointer-events: none;
 }
 
 .container, #toolbar, h1 {
