@@ -59,8 +59,10 @@ background: 	#C9C0BB;
     display: flex;
     flex-direction: column;
     padding: 5px;
-    width: 70px;
-    background-color: transparent;
+    width: 90px;
+    height:30%;
+    background-color: #C9C0BB;
+    border-radius:16px;
 }
 
 #toolbar * {
