@@ -48,28 +48,32 @@ background: 	#C9C0BB;
 }
 
 
-#mydiv   { top: 10%; left: 10%; }   #mydiv2  { top: 10%; left: 22%; }   #mydiv3  { top: 10%; left: 34%; }
-#mydiv4  { top: 10%; left: 46%; }   #mydiv5  { top: 10%; left: 58%; }   #mydiv6  { top: 10%; left: 70%; }
+#mydiv   { top: 10%; left: 10%;  z-index: 5; }   #mydiv2  { top: 10%; left: 22%;  z-index: 5;  }   #mydiv3  { top: 10%; left: 34%;  z-index: 5; }
+#mydiv4  { top: 10%; left: 46%;  z-index: 5; }   #mydiv5  { top: 10%; left: 58%; z-index: 5;  }   #mydiv6  { top: 10%; left: 70%;  z-index: 5; }
 
 
-#mydiv7  { top: 30%; left: 10%; }   #mydiv8  { top: 30%; left: 22%; }   #mydiv9  { top: 30%; left: 34%; }
-#mydiv10 { top: 30%; left: 46%; }   #mydiv11 { top: 30%; left: 58%; }   #mydiv12 { top: 30%; left: 70%; }
+#mydiv7  { top: 30%; left: 10%;  z-index: 5; }   #mydiv8  { top: 30%; left: 22%;  z-index: 5; }   #mydiv9  { top: 30%; left: 34%;  z-index: 5; }
+#mydiv10 { top: 30%; left: 46%;  z-index: 5; }   #mydiv11 { top: 30%; left: 58%;  z-index: 5; }   #mydiv12 { top: 30%; left: 70%;  z-index: 5; }
 
 
-#mydiv13 { top: 50%; left: 10%; }   #mydiv14 { top: 50%; left: 22%; }   #mydiv15 { top: 50%; left: 34%; }
-#mydiv16 { top: 50%; left: 46%; }   #mydiv17 { top: 50%; left: 58%; }   #mydiv18 { top: 50%; left: 70%; }
+#mydiv13 { top: 50%; left: 10%;  z-index: 5; }   #mydiv14 { top: 50%; left: 22%;  z-index: 5; }   #mydiv15 { top: 50%; left: 34%; z-index: 5;  }
+#mydiv16 { top: 50%; left: 46%;  z-index: 5; }   #mydiv17 { top: 50%; left: 58%;  z-index: 5; }   #mydiv18 { top: 50%; left: 70%;  z-index: 5; }
 
 
-#mydiv19 { top: 70%; left: 10%; }   #mydiv20 { top: 70%; left: 22%; }   #mydiv21 { top: 70%; left: 34%; }
-#mydiv22 { top: 70%; left: 46%; }
+#mydiv19 { top: 70%; left: 10%; z-index: 5;  }   #mydiv20 { top: 70%; left: 22%; z-index: 5;  }   #mydiv21 { top: 70%; left: 34%;  z-index: 5; }
+#mydiv22 { top: 70%; left: 46%;  z-index: 5; }
 
 
 [id^="mydiv"][id$="header"], #mydivheader {
-  cursor: move;
   padding: 0;
   margin: 0;
+   z-index: 5; 
+   position:absolute;
 }
 
+[id^="mydiv"] img {
+  pointer-events: none; 
+}
 
 #drawing-board {
   position: fixed;
@@ -77,7 +81,7 @@ background: 	#C9C0BB;
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 1; 
+  z-index: -1; 
   display: block;
 }
 
