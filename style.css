@@ -70,12 +70,6 @@ background: 	#C9C0BB;
   margin: 0;
 }
 
-[id^="mydiv"] img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
 
 #drawing-board {
   position: fixed;
