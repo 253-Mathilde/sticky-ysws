@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://i.imgur.com/5Be681b.gif">
 </head>
-<body onload="setInterval(step,1000)"> 
+<body onload="setInterval(step,1000)"> <div class="drawing-board"><canvas id="drawing-board">
     <h1 style=" color:#F195C7; font-family: 'All Over Again'; text-align: center;">-❁-★ your digital sticker book ★-❁-</h1>
 
 <div id="mydiv">
@@ -78,15 +78,14 @@
 </div>
        <section class="container">
         <div id="toolbar">
-            <h2>Draw.</h2>
             <label for="stroke">Stroke</label>
             <input id="stroke" name='stroke' type="color">
             <label for="lineWidth">Line Width</label>
             <input id="lineWidth" name='lineWidth' type="number" value="5">
             <button id="clear">Clear</button>
         </div>
-        <div class="drawing-board">
-            <canvas id="drawing-board"></canvas>
+        
+            </canvas>
         </div>
     </section>
     <script src="script.js"></script>
