@@ -36,15 +36,45 @@ background: 	#C9C0BB;
 }
 
 
-#mydiv {
+[id^="mydiv"] {
   position: absolute;
-  z-index: 9;
- 
+  z-index: 5; 
+  width: 5%;  
+  height: 8%;
 }
 
-#mydivheader {
-  padding: 10px;
+#mydiv {
+  z-index: 5; 
+}
+
+
+#mydiv   { top: 10%; left: 10%; }   #mydiv2  { top: 10%; left: 22%; }   #mydiv3  { top: 10%; left: 34%; }
+#mydiv4  { top: 10%; left: 46%; }   #mydiv5  { top: 10%; left: 58%; }   #mydiv6  { top: 10%; left: 70%; }
+
+
+#mydiv7  { top: 30%; left: 10%; }   #mydiv8  { top: 30%; left: 22%; }   #mydiv9  { top: 30%; left: 34%; }
+#mydiv10 { top: 30%; left: 46%; }   #mydiv11 { top: 30%; left: 58%; }   #mydiv12 { top: 30%; left: 70%; }
+
+
+#mydiv13 { top: 50%; left: 10%; }   #mydiv14 { top: 50%; left: 22%; }   #mydiv15 { top: 50%; left: 34%; }
+#mydiv16 { top: 50%; left: 46%; }   #mydiv17 { top: 50%; left: 58%; }   #mydiv18 { top: 50%; left: 70%; }
+
+
+#mydiv19 { top: 70%; left: 10%; }   #mydiv20 { top: 70%; left: 22%; }   #mydiv21 { top: 70%; left: 34%; }
+#mydiv22 { top: 70%; left: 46%; }
+
+
+[id^="mydiv"][id$="header"], #mydivheader {
   cursor: move;
+  padding: 0;
+  margin: 0;
+}
+
+[id^="mydiv"] img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 #drawing-board {
@@ -53,21 +83,14 @@ background: 	#C9C0BB;
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 1; /* Liegt ganz unten */
+  z-index: 1; 
   display: block;
-}
-
-[id^="mydiv"] {
-  position: absolute;
-  z-index: 5; 
 }
 
 .container, #toolbar, h1 {
   position: relative;
-  z-index: 10;
+  z-index: 10; 
 }
-
-
 
 .container {
     height: 100%;
@@ -79,9 +102,9 @@ background: 	#C9C0BB;
     flex-direction: column;
     padding: 5px;
     width: 90px;
-    height:30%;
+    height: 30%;
     background-color: #C9C0BB;
-    border-radius:16px;
+    border-radius: 16px;
 }
 
 #toolbar * {
@@ -100,32 +123,6 @@ background: 	#C9C0BB;
     background-color: #1565c0;
     border: none;
     border-radius: 4px;
-    color:white;
+    color: white;
     padding: 2px;
 }
-
-
-
-
-#mydivheader  { position:absolute; top: 10%; left: 10%; }
-#mydiv2header  { position:absolute; top: 10%; left: 22%; }
-#mydiv3header  { position:absolute; top: 10%; left: 34%; }
-#mydiv4header  { position:absolute; top: 10%; left: 46%; }
-#mydiv5header  { position:absolute; top: 10%; left: 58%; }
-#mydiv6header  { position:absolute; top: 10%; left: 70%; }
-#mydiv7header  { position:absolute;top: 30%; left: 10%; }
-#mydiv8header  {position:absolute; top: 30%; left: 22%; }
-#mydiv9header  { position:absolute;top: 30%; left: 34%; }
-#mydiv10header { position:absolute;top: 30%; left: 46%; }
-#mydiv11header {position:absolute; top: 30%; left: 58%; }
-#mydiv12header {position:absolute; top: 30%; left: 70%; }
-#mydiv13header {position:absolute; top: 50%; left: 10%; }
-#mydiv14header { position:absolute;top: 50%; left: 22%; }
-#mydiv15header { position:absolute;top: 50%; left: 34%; }
-#mydiv16header { position:absolute;top: 50%; left: 46%; }
-#mydiv17header { position:absolute;top: 50%; left: 58%; }
-#mydiv18header { position:absolute;top: 50%; left: 70%; }
-#mydiv19header { position:absolute;top: 70%; left: 10%; }
-#mydiv20header {position:absolute; top: 70%; left: 22%; }
-#mydiv21header { position:absolute;top: 70%; left: 34%; }
-#mydiv22header { position:absolute;top: 70%; left: 46%; }
