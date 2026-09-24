@@ -47,6 +47,25 @@ background: 	#C9C0BB;
   cursor: move;
 }
 
+#drawing-board {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1; /* Liegt ganz unten */
+  display: block;
+}
+
+[id^="mydiv"] {
+  position: absolute;
+  z-index: 5; 
+}
+
+.container, #toolbar, h1 {
+  position: relative;
+  z-index: 10;
+}
 
 
 
