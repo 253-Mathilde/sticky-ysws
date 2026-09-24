@@ -97,6 +97,7 @@ background: 	#C9C0BB;
 .container {
     height: 100%;
     display: flex;
+     pointer-events: none; 
 }
 
 #toolbar {
@@ -107,6 +108,7 @@ background: 	#C9C0BB;
     height: 30%;
     background-color: #C9C0BB;
     border-radius: 16px;
+    pointer-events: auto;
 }
 
 #toolbar * {
