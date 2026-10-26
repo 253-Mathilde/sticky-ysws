@@ -15,7 +15,7 @@ You can change the width of your brush in the Line brush element (in the menu on
 <br>
 <br>
 <br>
-I made this site for the hackclub ysws "sticky".
+I made this site for the Hack Club ysws "sticky".
 I did use some tools for helping me but these were all made by humans.
 Here is the proof that my site is made by me: <br>
 <a href="https://aiwebsitedetector.com/site/253-mathilde.github.io/sticky-ysws" target="_blank" rel="noopener noreferrer">
